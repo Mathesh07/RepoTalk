@@ -1,0 +1,19 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# GitHub repo handling
+gitpython
+
+# RAG + embeddings
+sentence-transformers
+langchain
+langchain-text-splitters
+langchain-groq
+
+# Vector database
+chromadb
+pinecone
+
+# Utilities
+pydantic
