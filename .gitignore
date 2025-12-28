@@ -1,19 +1,45 @@
-# Python
-venv/
+# ===============================
+# Python / FastAPI
+# ===============================
+backend/venv/
+backend/.venv/
 __pycache__/
 *.pyc
-
-# Environment variables
+*.pyo
+*.pyd
 .env
+.env.*
+*.sqlite3
 
-# VS Code
-.vscode/
+# ===============================
+# Node / React / Vite
+# ===============================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
 
-# Node
-node_modules/
-dist/
-build/
+# ===============================
+# Logs
+# ===============================
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
 
+# ===============================
 # OS files
+# ===============================
 .DS_Store
 Thumbs.db
+
+# ===============================
+# VS Code / IDE
+# ===============================
+.vscode/
+.idea/
+*.swp
+
+# ===============================
+# Git
+# ===============================
+.gitignore

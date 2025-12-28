@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --radius: 12px; }
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100"><defs><pattern id="g" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.5" fill="%23ffffff0d"/></pattern></defs><rect width="100%" height="100%" fill="transparent"/><rect width="100%" height="100%" fill="url(%23g)"/></svg>');
+}
+
+.container-prose p { @apply leading-relaxed text-gray-200; }
+.container-prose code { @apply bg-bg-soft text-gray-100 rounded px-1 py-0.5; }
+.container-prose pre { @apply bg-bg-soft border border-white/5 rounded-lg overflow-x-auto; }
+.container-prose h1, .container-prose h2, .container-prose h3 { @apply font-semibold text-white; }
